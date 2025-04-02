@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "psi-tfln-pdk"
+version = "0.2.0"
+description = "PSI's gdsfactory elements for generating TFLN devices programmatically."
+authors = ["TFLN Team"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gdsfactory = "7.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+dev-dependencies = ["sphinx", "gdsfactory[sphinx]"]
