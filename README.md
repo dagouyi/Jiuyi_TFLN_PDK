@@ -1,4 +1,4 @@
-# PSI TFLN PDK
+# TFLN PDK
 
 A PSI Python library for generating PDK elements programmatically in KLayout.
 
